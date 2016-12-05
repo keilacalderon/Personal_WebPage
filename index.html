@@ -3,18 +3,33 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, intieial-scale=1">
 	<title>Keila Calderon</title>
 	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/slicknav.css">
+		<script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+		<!-- loads the slicknav javascript/jQuery plugin -->
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#nav_menu').slicknav({
+					prependTo : "#mobile_menu"
+				});
+			});
+		</script>
 </head>
 
 <body>
 	<header>
-		<img src="images/mail_icon.png" alt="contact keila" height="80">
+		<img src="images/mail_icon.png" alt="contact keila">
 		
 		<h2>Keila Calderon</h2>
 		
 	</header>
-	
+		<nav id="mobile_menu"></nav>
 		<nav id="nav_menu">
 			<ul>
 				<li>

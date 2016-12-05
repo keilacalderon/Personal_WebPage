@@ -10,9 +10,16 @@ html{
 
 body{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 100%;
+	/*font-size: 100%;
 	width: 800px;
-	margin: 0 auto; 
+	margin: 0 auto; */
+	
+	max-width: 960px;
+	width: 95%; 
+	margin: 0 auto;
+	padding: 0;
+	border: 3px;
+
 }
 
 
@@ -21,15 +28,16 @@ a:focus, a:hover {
 }
 
 header{
-	padding: 3em 0 2em  0;
+	padding: 0.9375em 1.875% 0.9375em 1.875%;
 	background-color: white;
-	border-bottom: 1em solid white;
-	font-size: 18px;
 }
 
 header img {
 	float: right;
-	padding 0 30px;
+	padding-right: 1.875%;
+	width: 10.6%;
+	max-width: 85px;
+	min-width: 40px;
 }
 
 #nav_menu ul {
@@ -52,7 +60,7 @@ header img {
 	display: block;
 	width: 100%;
 }
-#nav_menu > ul:after {
+#nav_menu > ul::after {
 	content: "";
 	display: block;
 	clear: both;
@@ -91,6 +99,33 @@ main{
 
 footer{
 	border-top: 1em solid #D3D3D3;
-	padding: 15px;
+	padding: 0.9375em 1.875% 0.9375em 1.875%;
 	background-color: #D3D3D3;
 }
+
+
+#mobile_menu {
+	display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+	html {
+		background-image: none; 
+	}
+	body {
+		font-size: 90%
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+	#nav_menu {
+		display: none;
+	}
+
+	#mobile_menu {
+		display: block; 
+	}
