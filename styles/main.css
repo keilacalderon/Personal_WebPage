@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 	padding:0;
 }
@@ -9,11 +9,12 @@ html{
 
 
 body{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 	width: 800px;
 	margin: 0 auto; 
 }
+
 
 a:focus, a:hover {
 	font-style: italic;
@@ -23,12 +24,65 @@ header{
 	padding: 3em 0 2em  0;
 	background-color: white;
 	border-bottom: 1em solid white;
+	font-size: 18px;
 }
 
 header img {
 	float: right;
 	padding 0 30px;
 }
+
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+	width: 20%; 
+}
+#nav_menu ul ul {
+	display: none; 
+	position: absolute;
+	top: 100%; 
+}
+#nav_menu ul ul li {
+	float: none; 
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+	width: 100%;
+}
+#nav_menu > ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* The styles for the formatting of the 2-tier navigation menu */
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: 0.7em 0;
+	text-decoration: none;
+	background-color: #e6e6e6;
+	color: #666666;
+	font-weight: bold;
+}
+#nav_menu ul li.lastitem a {
+	/* width: 160px; /* leave this here just in case you make this a 3-tier menu */
+}
+#nav_menu ul li a.current {
+	color: #b3b3b3; /* per Halloween Ex. 7, Spec: 1 cont'd. */
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #cccccc;
+}
+
+
 
 main{
 	border: 1em solid #D3D3D3;
@@ -37,6 +91,6 @@ main{
 
 footer{
 	border-top: 1em solid #D3D3D3;
-	padding 15px;
+	padding: 15px;
 	background-color: #D3D3D3;
 }
