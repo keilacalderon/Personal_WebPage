@@ -147,9 +147,11 @@ footer{
 	border-top: 1em;
 	padding: 0.9375em 1.875% 0.9375em 1.875%;
 	background-color: #8c8c8c;
-	text-align: right;
 }
 
+footer p{
+	text-align: right;
+}
 
 #mobile_menu {
 	display: none;

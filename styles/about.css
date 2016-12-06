@@ -147,6 +147,10 @@ footer{
 	background-color: #8c8c8c;
 }
 
+footer p{
+	text-align: right;
+}
+
 
 #mobile_menu {
 	display: none;
