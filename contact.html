@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, intieial-scale=1">
 	<title>Contact</title>
-	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/contact.css">
 	<link rel="stylesheet" href="styles/slicknav.css">
 		<script
 		src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -20,10 +20,20 @@
 				});
 			});
 		</script>
+		
+<script type="text/javascript">
+<!--
+function redirect() {
+	window.location = "thankYou.html"
+
+}
+//-->
+</script>
 </head>
 
 <header>
-		<img src="images/mail_icon.png" alt="contact keila">
+	<div><a href="index.html"><img src="images/logo.jpeg" alt="keila calderon"></a></div>
+		<a href="contact.html"><img src="images/mail_icon.png" alt="contact keila"> </a>
 		
 		<h2>Contact</h2>
 		<br><br><br>
@@ -48,3 +58,32 @@
 				</li>
 			</ul>
 		</nav>
+<body>		
+<main>
+	<p>Looking for someone like me to join your team? Get in touch me with on social media or fill the contact form below!</p>
+</br></br>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Name*</label><br />
+		<input id="name" class="input" name=" first name" type="text" value="" size="60" /></br><div class="f">First Name</div></br>
+	 <input id="name" class="input" name="last name" type="text" value="" size="60" /></br><div class="f">Last Name</div></br>
+	</div>
+	<div class="row">
+		<label for="email">Email Address*</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="60" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Subject*</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="60" /><br />
+	</div>
+		<div class="row">
+		<label for="message">Message*</label><br />
+		<textarea id="message" class="input" name="message" rows="9" cols="60"></textarea><br />
+	</div>
+		
+<input type="button" onclick="redirect()" value="Submit">
+</form>	
+	
+</main>
+
+</body>
