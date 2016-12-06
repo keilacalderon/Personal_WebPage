@@ -39,7 +39,9 @@ header{
 }
 header h2 {
 	color: #3e3e3e;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	float: center;
+	font-size: 3em;
 }
 
 header img {
@@ -48,6 +50,14 @@ header img {
 	padding-top: 2%;
 	
 }
+
+header div img {
+	float: left;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
 
 #nav_menu ul {
 	list-style: none;
@@ -94,7 +104,7 @@ header img {
 	/* width: 160px; /* leave this here just in case you make this a 3-tier menu */
 }
 #nav_menu ul li a.current {
-	color: #b3b3b3; /* per Halloween Ex. 7, Spec: 1 cont'd. */
+	color: #b3b3b3; 
 }
 #nav_menu ul li a:hover, #nav_menu ul li a:focus {
 	background-color: #cccccc;
@@ -112,6 +122,7 @@ main{
 	background-color: white;
 	text-align: right;
 	font-size: 100%;
+	padding-right: 1em;
 
 }
 
@@ -120,6 +131,11 @@ main img {
 	width: 50%;
 	float: left;
 	padding: 0.9375em 1.875% 0.9375em 1.875%;
+}
+
+div p {
+	text-align: left;
+	font-size: 100%;
 }
 
 footer{

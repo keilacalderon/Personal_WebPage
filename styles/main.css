@@ -10,7 +10,7 @@ html{
 
 
 body{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	max-width: 1100px;
 	width: 95%; 
 	margin: 0 auto;
@@ -39,13 +39,30 @@ header{
 }
 header h2 {
 	color: #3e3e3e;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	float: center;
+	font-size: 3em;
 }
 
 header img {
 	float: right;
 	padding-right: 2%;
 	padding-top: 2%;
+}
+
+header div img {
+	float: left;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+main div {
+		background-color: #D3D3D3;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 250%;
+		text-align: center;
+		padding: 1em 1% 1em 1%;
 }
 
 #nav_menu ul {
@@ -93,18 +110,18 @@ header img {
 	/* width: 160px; /* leave this here just in case you make this a 3-tier menu */
 }
 #nav_menu ul li a.current {
-	color: #b3b3b3; /* per Halloween Ex. 7, Spec: 1 cont'd. */
+	color: #b3b3b3;
 }
 #nav_menu ul li a:hover, #nav_menu ul li a:focus {
 	background-color: #cccccc;
 }
 
-body h3 {
+/*body h3 {
 		background-color: #D3D3D3;
 		font-size: 250%;
 		text-align: center;
 		padding: 2em 2% 2em 2%;
-}
+}*/
 
 main{
 	border: 1em;
@@ -117,10 +134,11 @@ main img {
 	width: 80%;
 }
 
-div img {
-	width: 50%;
+header div img {
 	float: left;
-	padding: 0.9375em 1.875% 0.9375em 1.875%;
+	padding-left: 0.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 footer{
 	border-top: 1em;
