@@ -117,7 +117,7 @@ main div {
 		background-color: white;
 		font-size: 250%;
 		text-align: center;
-		padding: 1em 1% 1em 1%;
+		padding: 0.5em;
 }
 
 main{
@@ -139,6 +139,34 @@ main img {
 div p {
 	text-align: left;
 	font-size: 100%;
+}
+
+.content {
+	border: 1em;
+	background-color: white;
+	text-align: right;
+	font-size: 100%;
+	padding-right: 1em;
+}
+.content1 {
+	border: 1em;
+	background-color: white;
+	text-align: left;
+	font-size: 100%;
+	padding-right: 1em;
+	width: 50%;
+	
+}
+
+aside {
+	background-color: white;
+	width: 30%
+	text-align: center;
+	padding-right: 1em;
+	word-wrap: break-word;
+	float: righ;
+	
+	
 }
 
 footer{
