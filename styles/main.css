@@ -142,10 +142,12 @@ header div img {
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
+
 footer{
 	border-top: 1em;
 	padding: 0.9375em 1.875% 0.9375em 1.875%;
 	background-color: #8c8c8c;
+	text-align: right;
 }
 
 

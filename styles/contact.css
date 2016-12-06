@@ -32,6 +32,15 @@ header{
 	background-color: white;
 }
 
+header h2 {
+	color: #3e3e3e;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	padding-top: 0.5em;
+	font-size: 2.5em;
+	padding-bottom: 0.5em;
+}
+
 header div img {
 	float: left;
 	padding-left: 1%;
@@ -64,7 +73,7 @@ main {
     width: 85%;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 
 }
 
@@ -162,4 +171,14 @@ textarea {
 
 a:focus, a:hover {
 	font-style: italic;
+}
+
+footer{
+	border-top: 1em;
+	padding: 0.9375em 1.875% 0.9375em 1.875%;
+	background-color: #8c8c8c;
+}
+
+footer p{
+	text-align: right;
 }
