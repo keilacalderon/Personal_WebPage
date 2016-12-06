@@ -11,13 +11,11 @@ html{
 
 body{
 	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
 	max-width: 1100px;
 	width: 95%; 
 	margin: 0 auto;
 	padding: 0;
 	border: 3px;
-	line-height: 1.6em;
 	font-weight: 300;
     font-style: normal;
     background-color: #f9f9f9;
@@ -101,13 +99,22 @@ header img {
 	background-color: #cccccc;
 }
 
-
+body h3 {
+		background-color: #D3D3D3;
+		font-size: 250%;
+		text-align: center;
+		padding: 2em 2% 2em 2%;
+}
 
 main{
-	border: 1em solid #D3D3D3;
+	border: 1em;
 	background-color: #D3D3D3;
 	text-align: center;
-	font-size: 40px;
+	font-size: 150%;
+}
+
+main img {
+	width: 80%;
 }
 
 footer{
