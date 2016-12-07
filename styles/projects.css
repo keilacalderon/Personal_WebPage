@@ -61,10 +61,33 @@ header div img {
 	padding-bottom: 1%;
 }
 
-main img {
-	float: center;
-	padding-right: 4em;
+
+#pagewrap {
+	padding: 5px;
+	width: 96%;
+	margin: 20px auto;
+	background-color: #f9f9f9;
 }
+
+#content {
+	width: 30%;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 30%; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+	width: 30%;
+	padding: 5px 15px;
+	float: left;
+}
+
 
 
 
@@ -119,7 +142,9 @@ main img {
 	background-color: #cccccc;
 }
 
+
 footer{
+	clear: both;
 	border-top: 1em;
 	padding: 0.9375em 1.875% 0.9375em 1.875%;
 	background-color: #8c8c8c;

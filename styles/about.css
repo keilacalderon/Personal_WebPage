@@ -132,7 +132,7 @@ main{
  	padding-right: 1em;
 }
 
-main img {
+#main img {
 	width: 50%;
 	float: right;
 	padding: 0.9375em 1.875% 0.9375em 1.875%;
@@ -146,53 +146,30 @@ main img {
  }
 
 
-/*
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
-.group section {
-	border: 1em;
-	background-color: white;
-	text-align: left;
-	font-size: 100%;
-	padding-right: 1em;
-	text-align: left;
-	word-wrap: break-word;
-	width: 40%;
-}
-aside {
-	font-size: 100%;
-	float: right;
-	word-wrap: break-word;
-	text-align: right;
-	width: 50%;
 
-} 
-
-section {
-  display: inline-block;
-  text-align: right;
-
-  width: 70%;
-} */
-
-figure.aboutimg {
-    display: inline-block;
-    text-align: left;
-    width: 50%;
+#main
+{
+    overflow: hidden;
 }
 
-.caption {
-    display: block;
+sidebar 
+{
+    width: 80%;
+    float: left;
+    padding: 20px 0;
+}
+
+#article
+{
+    float: right;
+    width: 100%;
+    padding: 20px 0;
+}
+
+sidebar > *,
+#article > *
+{
+    margin: auto 20px;
 }
 
 
