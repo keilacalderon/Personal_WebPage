@@ -117,7 +117,7 @@ header div img {
 	background-color: #cccccc;
 }
 
-main h3 {
+#article h3 {
 		background-color: white;
 		font-size: 250%;
 		text-align: center;
@@ -150,25 +150,28 @@ main{
 #main
 {
     overflow: hidden;
+    padding-left: 1em;
+    padding-bottom: 2em;
 }
 
 sidebar 
 {
     width: 80%;
     float: left;
-    padding: 20px 0;
+    padding-left: 1em;
 }
 
 #article
 {
     float: right;
     width: 100%;
-    padding: 20px 0;
+
 }
 
 sidebar > *,
 #article > *
 {
+	width: 20%;
     margin: auto 20px;
 }
 
