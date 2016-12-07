@@ -142,10 +142,11 @@ main img {
  div p {
  	text-align: left;
  	font-size: 100%;
+ 	width: 50%;
  }
 
 
-
+/*
 .group:before,
 .group:after {
   content: "";
@@ -175,6 +176,23 @@ aside {
 	text-align: right;
 	width: 50%;
 
+} 
+
+section {
+  display: inline-block;
+  text-align: right;
+
+  width: 70%;
+} */
+
+figure.aboutimg {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+}
+
+.caption {
+    display: block;
 }
 
 
