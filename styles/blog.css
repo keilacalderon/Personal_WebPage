@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+html{
+	background-color: #f2f2f2;
+	letter-spacing: .02em;
+}
+
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	max-width: 1100px;
+	width: 95%; 
+	margin: 0 auto;
+	padding: 0;
+	border: 3px;
+	font-weight: 300;
+    font-style: normal;
+    background-color: #f9f9f9;
+    background-image: none;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: #3e3e3e;
+
+}
+
+a:focus, a:hover {
+	font-style: italic;
+}
+
+header{
+	padding: 1em 4% 1em 4%;
+	background-color: white;
+}
+
+header h2 {
+	color: #3e3e3e;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	padding-top: 0.5em;
+	font-size: 2.5em;
+	padding-bottom: 0.5em;
+}
+
+header img {
+	float: right;
+	padding-right: 2%;
+	padding-top: 2%;
+	
+}
+
+header div img {
+	float: left;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+}
+#nav_menu ul li {
+	float: left;
+	width: 20%; 
+}
+#nav_menu ul ul {
+	display: none; 
+	position: absolute;
+	top: 100%; 
+}
+#nav_menu ul ul li {
+	float: none; 
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+	width: 100%;
+}
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* The styles for the formatting of the 2-tier navigation menu */
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: 0.7em 0;
+	text-decoration: none;
+	background-color: #e6e6e6;
+	color: #666666;
+	font-weight: bold;
+}
+#nav_menu ul li.lastitem a {
+	/* width: 160px; /* leave this here just in case you make this a 3-tier menu */
+}
+#nav_menu ul li a.current {
+	color: #b3b3b3; 
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #cccccc;
+}
+
+main {
+	padding-top: 2em;
+	padding-left: 2em;
+	
+}
+
+main img {
+	width: 50%;
+}
+
+main p {
+	width: 55%;
+}
+
+
+footer{
+	border-top: 1em;
+	padding: 0.9375em 1.875% 0.9375em 1.875%;
+	background-color: #8c8c8c;
+}
+
+footer p{
+	text-align: right;
+}
+
+
+#mobile_menu {
+	display: none;
+}
+
+
+@media only screen and (max-width: 1100px) {
+	padding: 5%;
+	html {
+		background-image: none; 
+	}
+	body {
+		font-size: 90%
+	}
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+	#nav_menu {
+		display: none;
+	}
+
+	#mobile_menu {
+		display: block; 
+	}
+}
