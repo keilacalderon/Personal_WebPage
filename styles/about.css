@@ -26,6 +26,7 @@ body{
     background-attachment: scroll;
     background-repeat: no-repeat;
     color: #3e3e3e;
+    font-size: 100%;
 
 }
 
@@ -116,7 +117,7 @@ header div img {
 	background-color: #cccccc;
 }
 
-main div {
+main h3 {
 		background-color: white;
 		font-size: 250%;
 		text-align: center;
@@ -124,53 +125,59 @@ main div {
 }
 
 main{
-	border: 1em;
-	background-color: white;
-	text-align: right;
-	font-size: 100%;
-	padding-right: 1em;
-
+	 border: 1em;
+ 	background-color: white;
+ 	text-align: right;
+ 	font-size: 100%;
+ 	padding-right: 1em;
 }
-
 
 main img {
 	width: 50%;
-	float: left;
+	float: right;
 	padding: 0.9375em 1.875% 0.9375em 1.875%;
 }
 
-div p {
-	text-align: left;
-	font-size: 100%;
-}
 
-.content {
+ div p {
+ 	text-align: left;
+ 	font-size: 100%;
+ }
+
+
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+.group section {
 	border: 1em;
 	background-color: white;
-	text-align: right;
-	font-size: 100%;
-	padding-right: 1em;
-}
-.content1 {
-	border: 1em;
-	background-color: white;
 	text-align: left;
 	font-size: 100%;
 	padding-right: 1em;
-	width: 50%;
-	
-}
-
-aside {
-	background-color: white;
-	width: 30%
-	text-align: center;
-	padding-right: 1em;
+	text-align: left;
 	word-wrap: break-word;
-	float: righ;
-	
-	
+	width: 40%;
 }
+aside {
+	font-size: 100%;
+	float: right;
+	word-wrap: break-word;
+	text-align: right;
+	width: 50%;
+
+}
+
+
 
 footer{
 	border-top: 1em;
