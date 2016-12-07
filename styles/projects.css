@@ -6,6 +6,7 @@
 html{
 	background-color: #f2f2f2;
 	letter-spacing: .02em;
+	background-image: url("../images/sayagata.png");
 }
 
 
@@ -58,6 +59,15 @@ header div img {
 	padding-left: 1%;
 	padding-top: 1%;
 	padding-bottom: 1%;
+}
+
+main img {
+	float: center;
+	padding-right: 4em;
+}
+
+main img 2row {
+	
 }
 
 
